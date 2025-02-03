@@ -46,7 +46,77 @@ body{
 
 
 /* REVİEWS-SECTİON BAŞLADI */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
+.reviews-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.reviews-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-info h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #333;
+}
+
+.user-info p {
+    font-size: 1.1rem;
+    color: #ffcc00;
+    margin: 0;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+}
 /* REVİEWS-SECTİON BİTTİ */
 
 
